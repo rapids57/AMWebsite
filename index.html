@@ -3,6 +3,32 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <style>
+    
+    .header {
+      margin: auto;
+      padding: 5px;
+      background-color: #1d86d1;
+      font-family: "Trebuchet MS";
+      width: 800px;
+      height: 100px;
+   		text-align: center;
+      border-style: dashed;
+  		border-width: 3px;
+    }
+    .navbar {
+      width: 800px;
+      height: 30px;
+      background-color: #1d86d1;
+      font-family: "Trebuchet MS";
+      font-size: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+      text-align: center;
+      border-style: dashed;
+      border-width: 3px;
+      padding: 5px;
+    }
     .out_window {
       margin: 5px;
       margin-left: auto;
@@ -10,39 +36,47 @@
       padding: 5px;
       background-color: #1d86d1;
       width: 800px;
-      border-style: solid;
+      border-style: dashed;
   		border-width: 3px;
-    }
-    .header {
-      margin: auto;
-      padding: 5px;
-      background-color: #1d86d1;
-      font-family: "Verdana";
-      width: 800px;
-      height: 100px;
-   		text-align: center;
-      border-style: solid;
-  		border-width: 3px;
+      font-family: "Trebuchet MS";
     }
     .in_window {
       padding: 2px;
       background-color: white;
+      padding: 5px;
+    }
+    .in_window > h1 {
+      font-size: 20px;
+    }
+    .in_window > p {
+      font-size: 12px;
     }
     </style>
     <title>Welcome</title>
   </head>
   <body>
     <header class="header">
-      <center><img src='websiteheader.png' alt='Website header dot png' width='650'></center>
+      <center><img src="websiteheader.png" alt="Website header dot png" width="650"></center>
     </header>
+    <nav class="navbar"> 
+      <a href="home.html">Home</a>|
+      <a href="stuff.html">Stuff</a>|
+      <a href="updates.html">Updates</a>|
+      <a href="downloads.html">Downloads</a>
+    </nav>
     <div class="out_window">
       <h1>What's new?</h1>
       <article class="in_window" :="">
         <h1>Newest project:</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wrKIKzyYMrU?si=QZVkUiLjJvzj0EKd&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>Like this video?</p>
-        <a href='elephant_in_room.mp4' download>Download it!</a>
-      </article>
+        <b>
+          <p>Elephant in the Room</p>
+        </b> <iframe src="https://www.youtube.com/embed/wrKIKzyYMrU?si=QZVkUiLjJvzj0EKd&amp;controls=0"
+
+          title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" height="315"
+
+          frameborder="0" width="560"></iframe> </article>
     </div>
   </body>
 </html>
