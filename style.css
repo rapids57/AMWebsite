@@ -2,7 +2,7 @@ body {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 1080px;
+    background-size: cover;
   }
 .header {
     margin: auto;
