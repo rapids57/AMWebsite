@@ -2,6 +2,7 @@ body {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 1080px;
   }
 .header {
     margin: auto;
@@ -10,9 +11,9 @@ body {
     font-family: "Trebuchet MS";
     width: 800px;
     height: 100px;
-         text-align: center;
+    text-align: center;
     border-style: dashed;
-        border-width: 3px;
+    border-width: 3px;
   }
 .navbar {
     width: 800px;
