@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+.entryscreen {
+    background-color: #1d86d1;
+    font-family: "Trebuchet MS";
+    background-image: url("hellobg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: bottom right;
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
