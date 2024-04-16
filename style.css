@@ -62,3 +62,12 @@ body {
     padding-left: 10px;
     line-height: 50px;
 }
+.blog_post {
+    background-image: url("spacer.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    width: 650px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+    line-height: 50px;
+}
