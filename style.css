@@ -69,5 +69,12 @@ body {
     width: 650px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 10px;
+    text-wrap: wrap;
+}
+.blog_post > h1 {
     line-height: 50px;
+}
+.blog_post > img {
+    width: 300px;
+    padding: 5px;
 }
