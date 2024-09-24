@@ -15,6 +15,7 @@ body {
   transform: translate(-50%,-50%);
   border-style: dashed;
   border-color: dimgrey;
+  border-radius: 15px;
 }
 .entryscreen >h1 {
   font-size: 30px;
