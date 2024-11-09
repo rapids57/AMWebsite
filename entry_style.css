@@ -2,11 +2,12 @@ body {
   background-color: black;
 }
 .entryscreen {
-  background-color: #1d86d1;
-  background-image: url("hellobg.png");
+  background-color: #000000;
+  background-image: url("newbg.jpg");
+  background-size: 800px;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  background-position: bottom right;
+  background-position: top left;
   width: 640px;
   height: 480px;
   position: absolute;
@@ -15,11 +16,14 @@ body {
   transform: translate(-50%,-50%);
   border-style: dashed;
   border-color: dimgrey;
-  border-radius: 15px;
+  
 }
+/* keep in mind #1d86d1 when you're done with special background photo*/
 .entryscreen >h1 {
   font-size: 30px;
   font-family: "Trebuchet MS";
+  padding-left: 15px;
+  color: #ffffff;
 }
 button {
   width: 200px;
